@@ -1,4 +1,4 @@
-# zse-raspberry-pi-workers
+# zse-windows-worker
 buildbot-worker on windows 10
 
 ## Prerequisites
