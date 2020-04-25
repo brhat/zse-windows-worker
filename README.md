@@ -7,6 +7,10 @@ buildbot-worker on windows 10
 - python3
 - NSSM - the Non-Sucking Service Manager (https://nssm.cc/)
 - set a password for your user
+## Warning
+Some problem prevents a tls connection between the buildbot-worker on windows and the reverse proxy (traefik) in front of the buildmaster.
+Because of this, tls is deactivated!
+Make sure to establish the connection between worker and buildmaster in a trusted environment only
 ## Setup
 * clone / copy this repository to your windows host
   * (Optional) Create a branch for your configuration including secrets (git checkout -b secrets)
